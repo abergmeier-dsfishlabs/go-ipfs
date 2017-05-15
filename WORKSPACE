@@ -16,6 +16,12 @@ http_archive(
 )
 
 http_archive(
+    name = "io_ipfs_go-ipld-format",
+    url = "https://github.com/ipfs/go-ipld-format/archive/979ce4334e14b1c1b04fab1d2b8c1bd30c3f8f0a.zip",
+    strip_prefix = "979ce4334e14b1c1b04fab1d2b8c1bd30c3f8f0a-979ce4334e14b1c1b04fab1d2b8c1bd30c3f8f0a",
+)
+
+http_archive(
     name = "io_multiformats_go-multihash",
     url = "https://github.com/multiformats/go-multihash/archive/7aa9f26a231c6f34f4e9fad52bf580fd36627285.zip",
     strip_prefix = "7aa9f26a231c6f34f4e9fad52bf580fd36627285-7aa9f26a231c6f34f4e9fad52bf580fd36627285",
