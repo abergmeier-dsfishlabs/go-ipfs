@@ -14,3 +14,10 @@ http_archive(
     url = "https://github.com/ipfs/go-cid/archive/7e7f6811b40a5d049c3036defc53faa0af86716e.zip")
     strip_prefix = "7e7f6811b40a5d049c3036defc53faa0af86716e-7e7f6811b40a5d049c3036defc53faa0af86716e",
 )
+
+http_archive(
+    name = "io_multiformats_go-multihash",
+    url = "https://github.com/multiformats/go-multihash/archive/7aa9f26a231c6f34f4e9fad52bf580fd36627285.zip",
+    strip_prefix = "7aa9f26a231c6f34f4e9fad52bf580fd36627285-7aa9f26a231c6f34f4e9fad52bf580fd36627285",
+)
+
